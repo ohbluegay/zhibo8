@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script>
+  let [a,[b,d],c] = [1,[ ,4],3];
+  console.log(a)
+  console.log(b)
+  console.log(c)
+  console.log(d)
+  var map = new Map();
+  map.set('1','2')
+  map.set('one','two')
+  for(let [key,value] of map) {
+      console.log(key + ' is '+value)
+  }
+</script>
+</body>
+</html>
